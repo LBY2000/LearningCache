@@ -59,3 +59,7 @@ $ ./benchmark 1 1 100 12 0
 https://github.com/LBY2000/LearningCache/blob/8fb7be86ce7bc46a71f3e5244ed15ec595f2d5f8/include/Rdma.h#L60-L61
 
 2.修改CMakeLists.txt里相关库路径
+Boost相关库【因为实验室服务器共享所以设置了自己的库路径】
+https://github.com/LBY2000/LearningCache/blob/62edb9dc80521f9b3d2db0de8597e6497f426444/CMakeLists.txt#L4-L7
+其他相关库路径【如果不在默认路径中的话】, 这里可以查看所需的动态库有哪些，对应配置
+https://github.com/LBY2000/LearningCache/blob/62edb9dc80521f9b3d2db0de8597e6497f426444/CMakeLists.txt#L15
