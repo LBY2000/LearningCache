@@ -54,6 +54,8 @@ $ ./benchmark 1 1 100 12 0
 
 ### 其他细节
 
-需要确认本机RNIC的端口，可以采用 **ibstatus** 查看
+1.需要确认本机RNIC的端口，可以采用 **ibstatus** 查看
 然后修改：
 https://github.com/LBY2000/LearningCache/blob/8fb7be86ce7bc46a71f3e5244ed15ec595f2d5f8/include/Rdma.h#L60-L61
+
+2.修改CMakeLists.txt里相关库路径
